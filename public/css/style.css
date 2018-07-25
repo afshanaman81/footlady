@@ -1,0 +1,68 @@
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    min-height: 100vh; 
+    width: 60vw;
+    margin: 1vh auto; 
+    z-index: 1000;   
+}
+
+.flex-center {
+    /*align-items: center;*/
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+    width: inherit;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+.logo{
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 5vw;
+}
+.vue-component{
+    margin: 3vh auto;
+    padding: 3vh;
+    border: 15px solid #00837d;
+}
+.uniform-width{
+    width: 11vw;
+}

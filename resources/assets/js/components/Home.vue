@@ -9,7 +9,6 @@
                         </p>
                     <p class="card-text">
                         This site is dedicated to education. My goal is to get as many people as possible to understand the importance of how reflexology can help them and their loved ones in their daily lives. On this site, you will find a wealth of information about events, classes, workshops, and the science of self care. 
-
                     </p>
                     
                 </div>
@@ -37,11 +36,9 @@
                     <div class="card">
                         <img class="card-img-top" src="images/my-story-2.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">
-                                My Story
-                            </h5>
+                            <h4 class="card-title">My Story</h4>
 
-                            <p class="text-center">Dedicated to helping people “HEEL”, 1 Step at a time.</p>
+                            <h5 class="text-center">"Dedicated to helping people “HEEL”, 1 Step at a time"</h5>
                             
                             <p class="card-text text-justify">Karen is a “Structural” Reflexologist, specializing in foot pain, with over 30 years of experience, and located in Colorado. She has been Nationally Board Certified, has been Certified through the International Institute of Reflexology in Fl., and was certified with the Laura Norman School of Reflexology, in N.Y.C.</p>
                             
@@ -77,8 +74,7 @@
         font-style: italic;
     }
     .card-text{
-        color: black;
-        font-weight: bold;
+        color: black;        
     }
 
      /*********** iPhones and SmartPhones ******************/

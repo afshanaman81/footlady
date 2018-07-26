@@ -42,7 +42,7 @@
 
                 <div id="app" class="vue-component">
                     <h1>Contact Me</h1>
-                    <example />
+                    <contact-page />
                 </div>
             </div>
         </div>

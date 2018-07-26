@@ -19,6 +19,8 @@ Vue.component('example', require('./components/Example.vue'));
 Vue.component('home-page', require('./components/Home.vue'));
 Vue.component('services-page', require('./components/Services.vue'));
 Vue.component('slide-show', require('./components/SlideShow.vue'));
+Vue.component('contact-page', require('./components/Contact.vue'));
+
 const app = new Vue({
     el: '#app'
 });

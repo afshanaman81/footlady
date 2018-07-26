@@ -377,33 +377,6 @@ module.exports = {
 /* 1 */
 /***/ (function(module, exports) {
 
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1,eval)("this");
-} catch(e) {
-	// This works if the window reference is available
-	if(typeof window === "object")
-		g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports) {
-
 /* globals __VUE_SSR_CONTEXT__ */
 
 // IMPORTANT: Do NOT use ES2015 features in this file.
@@ -507,6 +480,33 @@ module.exports = function normalizeComponent (
     options: options
   }
 }
+
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1,eval)("this");
+} catch(e) {
+	// This works if the window reference is available
+	if(typeof window === "object")
+		g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
 
 
 /***/ }),
@@ -1382,7 +1382,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(13);
-module.exports = __webpack_require__(60);
+module.exports = __webpack_require__(63);
 
 
 /***/ }),
@@ -1410,6 +1410,8 @@ Vue.component('example', __webpack_require__(41));
 Vue.component('home-page', __webpack_require__(44));
 Vue.component('services-page', __webpack_require__(50));
 Vue.component('slide-show', __webpack_require__(55));
+Vue.component('contact-page', __webpack_require__(60));
+
 var app = new Vue({
   el: '#app'
 });
@@ -18583,7 +18585,7 @@ if (token) {
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(16)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2), __webpack_require__(16)(module)))
 
 /***/ }),
 /* 16 */
@@ -43205,7 +43207,7 @@ Vue.compile = compileToFunctions;
 
 module.exports = Vue;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(39).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2), __webpack_require__(39).setImmediate))
 
 /***/ }),
 /* 39 */
@@ -43275,7 +43277,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                          (typeof global !== "undefined" && global.clearImmediate) ||
                          (this && this.clearImmediate);
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
 /* 40 */
@@ -43468,14 +43470,14 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(7)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2), __webpack_require__(7)))
 
 /***/ }),
 /* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
-var normalizeComponent = __webpack_require__(2)
+var normalizeComponent = __webpack_require__(1)
 /* script */
 var __vue_script__ = __webpack_require__(42)
 /* template */
@@ -43598,7 +43600,7 @@ function injectStyle (ssrContext) {
   if (disposed) return
   __webpack_require__(45)
 }
-var normalizeComponent = __webpack_require__(2)
+var normalizeComponent = __webpack_require__(1)
 /* script */
 var __vue_script__ = __webpack_require__(48)
 /* template */
@@ -43915,7 +43917,7 @@ function injectStyle (ssrContext) {
   if (disposed) return
   __webpack_require__(51)
 }
-var normalizeComponent = __webpack_require__(2)
+var normalizeComponent = __webpack_require__(1)
 /* script */
 var __vue_script__ = __webpack_require__(53)
 /* template */
@@ -44296,7 +44298,7 @@ function injectStyle (ssrContext) {
   if (disposed) return
   __webpack_require__(56)
 }
-var normalizeComponent = __webpack_require__(2)
+var normalizeComponent = __webpack_require__(1)
 /* script */
 var __vue_script__ = __webpack_require__(58)
 /* template */
@@ -44440,9 +44442,377 @@ if (false) {
 
 /***/ }),
 /* 60 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(73)
+}
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = __webpack_require__(61)
+/* template */
+var __vue_template__ = __webpack_require__(75)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-1ac7daf9"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\Contact.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-1ac7daf9", Component.options)
+  } else {
+    hotAPI.reload("data-v-1ac7daf9", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 61 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    mounted: function mounted() {
+        console.log('Component mounted.');
+    }
+});
+
+/***/ }),
+/* 62 */,
+/* 63 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 64 */,
+/* 65 */,
+/* 66 */,
+/* 67 */,
+/* 68 */,
+/* 69 */,
+/* 70 */,
+/* 71 */,
+/* 72 */,
+/* 73 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(74);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(5)("75a3c162", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1ac7daf9\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Contact.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1ac7daf9\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Contact.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.card-text[data-v-1ac7daf9]{\n        color: black;\n        font-weight: bold;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row form-group" }, [
+        _c("div", { staticClass: "col-md" }, [
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card-body" }, [
+              _c("h5", { staticClass: "card-title" }, [_vm._v("HISTORY")]),
+              _vm._v(" "),
+              _c("table", { staticClass: "table text-justify" }, [
+                _c("tr", [
+                  _c("td", [_c("i", { staticClass: "fa fa-flag" })]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("Founded in:")]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("1988")])
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td", [_c("i", { staticClass: "fab fa-envira" })]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("Mission:")]),
+                  _vm._v(" "),
+                  _c("td", { staticClass: "card-text" }, [
+                    _vm._v(
+                      "My passion is to assist clients in the elimination of foot pain and to educate them in self care and maintenance."
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md" }, [
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card-body" }, [
+              _c("h5", { staticClass: "card-title" }, [_vm._v("CONTACT INFO")]),
+              _vm._v(" "),
+              _c("table", { staticClass: "table text-justify" }, [
+                _c("tr", [
+                  _c("td", [_c("i", { staticClass: "fa fa-phone" })]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("Call:")]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("(303) 776-1165")])
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td", [_c("i", { staticClass: "fa fa-at" })]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("Email:")]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("footladyinCO@hotmail.com")])
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td", [
+                    _c("i", { staticClass: "fab fa-facebook-messenger" })
+                  ]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("Messenger:")]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("m.me/Footladyinco")])
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td", [
+                    _c("i", { staticClass: "fab fa-internet-explorer" })
+                  ]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("Web:")]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("http://footlady.net")])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row form-group" }, [
+        _c("div", { staticClass: "col-md" }, [
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card-body" }, [
+              _c("h5", { staticClass: "card-title" }, [
+                _vm._v("BUSINESS INFO")
+              ]),
+              _vm._v(" "),
+              _c("table", { staticClass: "table text-justify" }, [
+                _c("tr", [
+                  _c("td", [_c("i", { staticClass: "fa fa-magic" })]),
+                  _vm._v(" "),
+                  _c("td", { attrs: { width: "30%" } }, [_vm._v("Category:")]),
+                  _vm._v(" "),
+                  _c("td", { staticClass: "card-text" }, [
+                    _vm._v("Health/Beauty")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td", [_c("i", { staticClass: "fa fa-certificate" })]),
+                  _vm._v(" "),
+                  _c("td", { attrs: { width: "30%" } }, [_vm._v("About:")]),
+                  _vm._v(" "),
+                  _c("td", { staticClass: "card-text" }, [
+                    _vm._v(
+                      "Structural Foot Reflexologist, Specializing in foot pain, \n\t\t\t\t\t\t\t\tEar & Hand Reflexology, Foot Joint Mobilization"
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td", [_c("i", { staticClass: "fa fa-trophy" })]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("Awards:")]),
+                  _vm._v(" "),
+                  _c("td", { staticClass: "card-text" }, [
+                    _vm._v(
+                      "Nationally Board Certified, Past President, Vice-President and Activities Director of the Associated Reflexologists of Colorado, Inaugurated Reflexology at Longmont United Hospital 1995, Instructed Reflexology at the Naropa Institute, Boulder/Healing Spirits Massage School, Boulder/Colorado State University, Ft.Collins/City of Loveland/City of Ft. Collins/City of Longmont/Longmont United Hospital"
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td", [_c("i", { staticClass: "fa fa-info" })]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("Products:")]),
+                  _vm._v(" "),
+                  _c("td", { staticClass: "card-text" }, [
+                    _vm._v(
+                      "Pain Eraser Reflexology balls and rollers, Laser cut files for calluses, locally made lotions and soap"
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-1ac7daf9", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);

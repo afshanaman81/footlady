@@ -29,13 +29,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <img src="images/logo.png" class="logo">The Foot lady
+                    <img src="images/logo.png" class="logo">The Footlady
                 </div>
 
                 <div class="links">
                     <a href="{{ url('/')}}">Home</a>
                     <a href="{{ url('/services')}}">Services</a>
                     <a href="{{ url('/facts')}}">Facts & Information</a>
+                    <a href="{{ url('/testimonials')}}">Testimonials</a>
                     <a href="{{ url('/contact-me')}}">Contact Me</a>                
                 </div>
 

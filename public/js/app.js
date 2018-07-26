@@ -43675,7 +43675,7 @@ exports = module.exports = __webpack_require__(4)(false);
 
 
 // module
-exports.push([module.i, "\n.taller[data-v-85ef4954]{\n    height: 30%;\n    padding: 0 3vw;\n    margin-bottom: 5vh;\n}\n.quote[data-v-85ef4954]{\n    margin: 10vh auto;\n    color: red;\n    font-size: 30px;\n    font-style: italic;\n}\n\n /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.taller[data-v-85ef4954]{\n        height: 55%;\n}\n.quote[data-v-85ef4954]{\n        margin: 5vh auto;\n        font-size: 20px;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n}\n\n\n/*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.taller[data-v-85ef4954]{\n        height: 40%;\n}\n.quote[data-v-85ef4954]{\n        margin: 10vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n}\n\n/* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.taller[data-v-85ef4954]{\n        height: 45%;\n}\n.quote[data-v-85ef4954]{\n        margin: 13vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n/* other laptops */\n@media only screen and (min-width: 1440px) {\n.taller[data-v-85ef4954]{\n        height: 40%;\n}\n.quote[data-v-85ef4954]{\n        margin: 12vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n/* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
+exports.push([module.i, "\n.taller[data-v-85ef4954]{\n    height: 30%;\n    padding: 0 3vw;\n    margin-bottom: 5vh;\n}\n.quote[data-v-85ef4954]{\n    margin: 10vh auto;\n    color: red;\n    font-size: 30px;\n    font-style: italic;\n}\n.card-text[data-v-85ef4954]{\n    color: black;\n    font-weight: bold;\n}\n\n /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.taller[data-v-85ef4954]{\n        height: 55%;\n}\n.quote[data-v-85ef4954]{\n        margin: 5vh auto;\n        font-size: 20px;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n}\n\n\n/*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.taller[data-v-85ef4954]{\n        height: 40%;\n}\n.quote[data-v-85ef4954]{\n        margin: 10vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n}\n\n/* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.taller[data-v-85ef4954]{\n        height: 45%;\n}\n.quote[data-v-85ef4954]{\n        margin: 13vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n/* other laptops */\n@media only screen and (min-width: 1440px) {\n.taller[data-v-85ef4954]{\n        height: 40%;\n}\n.quote[data-v-85ef4954]{\n        margin: 12vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n/* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
 
 // exports
 
@@ -43777,8 +43777,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
@@ -43822,21 +43820,15 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row taller" }, [
       _c("h5", { staticClass: "card-title" }, [_vm._v("Dear Visitors,")]),
       _vm._v(" "),
-      _c("p", [
+      _c("p", { staticClass: "card-text" }, [
         _vm._v(
           "\n                    I am serious about feet. I believe that feet are the body's foundation and that where there are healthy feet, a healthy body, mind, and spirit will follow.\n                    "
         )
       ]),
       _vm._v(" "),
-      _c("p", [
+      _c("p", { staticClass: "card-text" }, [
         _vm._v(
-          "\n\n                    This site is dedicated to education. My goal is to get as many people as possible to understand the importance of how reflexology can help them and their loved ones in their daily lives. On this site, you will find a wealth of information about events, classes, workshops, and the science of self care. \n\n                "
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n\n                    Visit often to know about latest events, specials, and fun foot facts (f3). \n                "
+          "\n                    This site is dedicated to education. My goal is to get as many people as possible to understand the importance of how reflexology can help them and their loved ones in their daily lives. On this site, you will find a wealth of information about events, classes, workshops, and the science of self care. \n\n                "
         )
       ])
     ])
@@ -43852,7 +43844,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row quote form-group" }, [
-      _c("p", { staticClass: "card-text" }, [
+      _c("p", [
         _vm._v(
           '\n                "To think on one\'s feet, when my feet hurt I cannot think."\n                    '
         ),
@@ -43879,19 +43871,23 @@ var staticRenderFns = [
             _c("div", { staticClass: "card-body" }, [
               _c("h5", { staticClass: "card-title" }, [
                 _vm._v(
-                  "\n                            Dedicated to helping people “HEEL”, 1 Step at a time.\n                        "
+                  "\n                            My Story\n                        "
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "text-center" }, [
+                _vm._v("Dedicated to helping people “HEEL”, 1 Step at a time.")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "card-text text-justify" }, [
+                _vm._v(
+                  "Karen is a “Structural” Reflexologist, specializing in foot pain, with over 30 years of experience, and located in Colorado. She has been Nationally Board Certified, has been Certified through the International Institute of Reflexology in Fl., and was certified with the Laura Norman School of Reflexology, in N.Y.C."
                 )
               ]),
               _vm._v(" "),
               _c("p", { staticClass: "card-text text-justify" }, [
                 _vm._v(
-                  "Karen is a “Structural” Reflexologist, specializing in foot pain, with 29 years of experience, and located in Colorado. She has been Nationally Board Certified, has been Certified through the International Institute of Reflexology in Fl., and was certified with the Laura Norman School of Reflexology, in N.Y.C."
-                )
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "card-text text-justify" }, [
-                _vm._v(
-                  "\n                        Karen’s training is extensive. Her Reflexology education, includes courses with Masters from around the world. Her studies range from different Foot Reflexology Techniques to Hand and Ear Reflexology, Foot “Joint Mobilization and Loosening”, Foot Reading, Bio mechanics, Anatomy and Physiology, Gait analysis and Functional Evaluation of feet and legs, Meridian Therapy Reflexology, Reflexatsu, Color Therapy Reflexology, Reflexognosy, Proprioceptive Neuromuscular Facilitation, Indian Champissage, Herbal and Homeopathy studies, and Laser Therapy."
+                  "\n                        Karen’s training is extensive. Her Reflexology education includes courses with Masters from around the world. Her studies range from different Foot Reflexology Techniques to Hand and Ear Reflexology, Foot “Joint Mobilization and Loosening”, Foot Reading, Bio mechanics, Anatomy and Physiology, Gait analysis and Functional Evaluation of feet and legs, Meridian Therapy Reflexology, Reflexatsu, Color Therapy Reflexology, Reflexognosy, Proprioceptive Neuromuscular Facilitation, Indian Champissage, Herbal and Homeopathy studies, and Laser Therapy."
                 )
               ])
             ])
@@ -43996,7 +43992,7 @@ exports = module.exports = __webpack_require__(4)(false);
 
 
 // module
-exports.push([module.i, "\nh5[data-v-0b29d7d5]{\n\t\tfont-weight: bold;\n\t\tcolor: #00837d;\n}\n.card[data-v-0b29d7d5]{\n\t\theight: 65vh;\n}\n\n    /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n}\n\n\n    /*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n}\n\n    /* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n.card[data-v-0b29d7d5]{\n            height: 70vh;\n}\n}\n\n    /* other laptops */\n@media only screen and (min-width: 1440px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n.card[data-v-0b29d7d5]{\n            height: 60vh;\n}\n}\n\n    /* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n.card[data-v-0b29d7d5]{\n            height: 50vh;\n}\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
+exports.push([module.i, "\nh5[data-v-0b29d7d5]{\n\t\tfont-weight: bold;\n\t\tcolor: #00837d;\n}\n.card[data-v-0b29d7d5]{\n\t\theight: 65vh;\n}\n.card-text[data-v-0b29d7d5]{\n        color: black;\n        font-weight: bold;\n}\n\n    /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n}\n\n\n    /*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n}\n\n    /* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n.card[data-v-0b29d7d5]{\n            height: 70vh;\n}\n}\n\n    /* other laptops */\n@media only screen and (min-width: 1440px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n.card[data-v-0b29d7d5]{\n            height: 60vh;\n}\n}\n\n    /* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n.card[data-v-0b29d7d5]{\n            height: 50vh;\n}\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
 
 // exports
 

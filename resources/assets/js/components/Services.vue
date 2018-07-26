@@ -112,6 +112,10 @@
 	.card{
 		height: 65vh;
 	}
+    .card-text{
+        color: black;
+        font-weight: bold;
+    }
 
     /*********** iPhones and SmartPhones ******************/
     @media only screen and (max-width: 740px) {

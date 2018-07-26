@@ -110,6 +110,61 @@
 		color: #00837d;
 	}
 	.card{
-		height: 50vh;
+		height: 65vh;
 	}
+
+    /*********** iPhones and SmartPhones ******************/
+    @media only screen and (max-width: 740px) {
+        .card{
+            height: auto;
+        }
+    }
+    @media only screen and (max-width: 740px) and (orientation: landscape) {
+
+    }
+
+
+    /*********** Device = Tablets, Ipads (portrait)*/
+    @media only screen and (min-width: 768px) {
+        .card{
+            height: auto;
+        }
+    }
+    @media only screen and (min-width: 768px) and (orientation: landscape) {
+        
+    }
+
+    /* Laptops (1280) */
+    @media only screen and (min-width: 1280px) {
+        .card{
+            height: auto;
+        }
+    }
+    @media only screen and (min-width: 1280px)  and (orientation: landscape){
+        .card{
+            height: 70vh;
+        }
+    }
+
+    /* other laptops */
+    @media only screen and (min-width: 1440px) {
+        .card{
+            height: auto;
+        }
+    }
+    @media only screen and (min-width: 1440px)  and (orientation: landscape){
+        .card{
+            height: 60vh;
+        }
+    }
+
+    /* desktops- wide screen */
+    @media only screen and (min-width: 1900px) {
+        .card{
+            height: 50vh;
+        }
+    }
+    @media only screen and (min-width: 1900px)  and (orientation: landscape){
+       
+    }
 </style>

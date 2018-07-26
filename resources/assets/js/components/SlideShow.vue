@@ -42,6 +42,59 @@
 	}
 	img{
 		width: 100%;
-		height: 40vh;
+		height: 30vh;
 	}
+
+	 /*********** iPhones and SmartPhones ******************/
+    @media only screen and (max-width: 740px) {
+        img{
+        	height: 60vh;
+        }
+    }
+    @media only screen and (max-width: 740px) and (orientation: landscape) {
+
+    }
+
+
+    /*********** Device = Tablets, Ipads (portrait)*/
+    @media only screen and (min-width: 768px) {
+        img{
+        	height: 20vh;
+        }
+    }
+    @media only screen and (min-width: 768px) and (orientation: landscape) {
+        img{
+        	height: 40vh;
+        }
+    }
+
+    /* Laptops (1280) */
+    @media only screen and (min-width: 1280px) {
+        img{
+        	height: 25vh;
+        }
+    }
+    @media only screen and (min-width: 1280px)  and (orientation: landscape){
+        
+    }
+
+    /* other laptops */
+    @media only screen and (min-width: 1440px) {
+		img{
+        	height: 30vh;
+        }
+    }
+    @media only screen and (min-width: 1440px)  and (orientation: landscape){
+        
+    }
+
+    /* desktops- wide screen */
+    @media only screen and (min-width: 1900px) {
+        img{
+        	height: 30vh;
+        }
+    }
+    @media only screen and (min-width: 1900px)  and (orientation: landscape){
+       
+    }
 </style>

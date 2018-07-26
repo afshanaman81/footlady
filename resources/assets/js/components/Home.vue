@@ -78,4 +78,69 @@
         font-size: 30px;
         font-style: italic;
     }
+
+     /*********** iPhones and SmartPhones ******************/
+    @media only screen and (max-width: 740px) {
+        .taller{
+            height: 55%;
+        } 
+        .quote{
+            margin: 5vh auto;
+            font-size: 20px;
+        }
+    }
+    @media only screen and (max-width: 740px) and (orientation: landscape) {
+
+    }
+
+
+    /*********** Device = Tablets, Ipads (portrait)*/
+    @media only screen and (min-width: 768px) {
+        .taller{
+            height: 40%;
+        } 
+        .quote{
+            margin: 10vh auto;
+            font-size: 24px;
+        }
+    }
+    @media only screen and (min-width: 768px) and (orientation: landscape) {
+        
+    }
+
+    /* Laptops (1280) */
+    @media only screen and (min-width: 1280px) {
+        .taller{
+            height: 45%;
+        } 
+        .quote{
+            margin: 13vh auto;
+            font-size: 24px;
+        }
+    }
+    @media only screen and (min-width: 1280px)  and (orientation: landscape){
+        
+    }
+
+    /* other laptops */
+    @media only screen and (min-width: 1440px) {
+        .taller{
+            height: 40%;
+        } 
+        .quote{
+            margin: 12vh auto;
+            font-size: 24px;
+        }
+    }
+    @media only screen and (min-width: 1440px)  and (orientation: landscape){
+        
+    }
+
+    /* desktops- wide screen */
+    @media only screen and (min-width: 1900px) {
+        
+    }
+    @media only screen and (min-width: 1900px)  and (orientation: landscape){
+       
+    }
 </style>

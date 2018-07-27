@@ -1382,7 +1382,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(13);
-module.exports = __webpack_require__(65);
+module.exports = __webpack_require__(69);
 
 
 /***/ }),
@@ -1411,7 +1411,7 @@ Vue.component('home-page', __webpack_require__(44));
 Vue.component('services-page', __webpack_require__(50));
 Vue.component('slide-show', __webpack_require__(55));
 Vue.component('contact-page', __webpack_require__(60));
-Vue.component('testimonials-page', __webpack_require__(75));
+Vue.component('testimonials-page', __webpack_require__(65));
 
 var app = new Vue({
   el: '#app'
@@ -44369,7 +44369,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n#background-image[data-v-1951a032]{\n\t\t/* BOX MODEL */\n\t\tz-index: 0;\n\n\t\t/* ENHANCEMENT */\n\t\tbackground-position: center center;\n\t\tbackground-size: cover;\n\t\tbackground-repeat: no-repeat;\n}\nimg[data-v-1951a032]{\n\t\twidth: 100%;\n\t\theight: 30vh;\n}\n\n\t /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\nimg[data-v-1951a032]{\n        \theight: 30vh;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\nimg[data-v-1951a032]{\n            height: 90vh;\n}\n}\n\n\n    /*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\nimg[data-v-1951a032]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\nimg[data-v-1951a032]{\n        \theight: 70vh;\n}\n}\n\n    /* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\nimg[data-v-1951a032]{\n        \theight: 30vh;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n    /* other laptops */\n@media only screen and (min-width: 1440px) {\nimg[data-v-1951a032]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n    /* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\nimg[data-v-1951a032]{\n        \theight: 30vh;\n}\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
+exports.push([module.i, "\n#background-image[data-v-1951a032]{\n\t\t/* BOX MODEL */\n\t\tz-index: 0;\n\n\t\t/* ENHANCEMENT */\n\t\tbackground-position: center center;\n\t\tbackground-size: cover;\n\t\tbackground-repeat: no-repeat;\n}\nimg[data-v-1951a032]{\n\t\twidth: 100%;\n\t\theight: 30vh;\n}\n\n\t /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\nimg[data-v-1951a032]{\n        \theight: 30vh;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\nimg[data-v-1951a032]{\n            height: 99vh;\n}\n}\n\n\n    /*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\nimg[data-v-1951a032]{\n        \theight: 40vh;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\nimg[data-v-1951a032]{\n        \theight: 70vh;\n}\n}\n\n    /* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\nimg[data-v-1951a032]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n    /* other laptops */\n@media only screen and (min-width: 1440px) {\nimg[data-v-1951a032]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n    /* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\nimg[data-v-1951a032]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
 
 // exports
 
@@ -44390,7 +44390,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = ({
 	data: function data() {
 		return {
-			src: 'images/1.jpg'
+			src: 'images/slideshow/1.jpg'
 		};
 	},
 	mounted: function mounted() {
@@ -44398,15 +44398,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 		var random = void 0;
 		var images = [];
-		images.push('images/1.jpg');
-		images.push('images/2.jpg');
-		images.push('images/teaching.jpg');
-		images.push('images/hands.jpg');
-		images.push('images/spa-party.jpg');
-		images.push('images/2.jpg');
+		images.push('images/slideshow/1.jpg');
+		images.push('images/slideshow/2.jpg');
+		images.push('images/slideshow/3.jpg');
+		images.push('images/slideshow/4.jpg');
+		images.push('images/slideshow/5.jpg');
+		images.push('images/slideshow/6.jpg');
+		images.push('images/slideshow/7.jpg');
+		images.push('images/slideshow/8.jpg');
 
 		setInterval(function () {
-			random = Math.floor(Math.random() * 6);
+			random = Math.floor(Math.random() * 8);
+			console.log(random);
 			_this.src = images[random];
 		}, 3000);
 	}
@@ -44802,29 +44805,14 @@ if (false) {
 
 /***/ }),
 /* 65 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 66 */,
-/* 67 */,
-/* 68 */,
-/* 69 */,
-/* 70 */,
-/* 71 */,
-/* 72 */,
-/* 73 */,
-/* 74 */,
-/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = __webpack_require__(76)
+var __vue_script__ = __webpack_require__(66)
 /* template */
-var __vue_template__ = __webpack_require__(77)
+var __vue_template__ = __webpack_require__(68)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -44863,7 +44851,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 76 */
+/* 66 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44886,7 +44874,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
-var testimonials = __webpack_require__(78);
+var testimonials = __webpack_require__(67);
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
@@ -44901,7 +44889,13 @@ var testimonials = __webpack_require__(78);
 });
 
 /***/ }),
-/* 77 */
+/* 67 */
+/***/ (function(module, exports) {
+
+module.exports = [{"content":"I had a long history of neck problems and headaches. After failed attempts through many different therapists, Karen was recommended to me by a friend. After only three treatments, I felt much better. She does a terrific job, I would recommend her to anyone.","poster":"Leo J. Burggraff","profession":"Rancher/Farmer"},{"content":"I originally went to Karen for knee and foot problems, but I soon noticed the improvements in my digestive tract. I had been suffering from digestive problems and colitis for almost 50 years. My health has improved and I feel relaxed and peaceful. Reflexology is wonderful for the nervous system. Her treatments are outstanding. She is personable, loving, knowledgeable, and so technically skilled,she is always right on target.","poster":"Sally Denigan","profession":"Retired Teacher"},{"content":"I suffered with pain in my whole body. The weekly treatments on my toes and feet changed my health, and got my seventy-four year old body to function much better. Karen, thank you for your excellent knowledge and know how.","poster":"Everett Wild","profession":"Retired Construction Worker"},{"content":"Hi Karen! Thank you I believe you helped me tremendously! It was amazing how it all turned out. We went in Friday morning, planning on being induced since nothing happened, I walked into the hospital; they took me to our laboring room and asked me to get into a hospital gown. At this point, I had no contractions. By the time the nurse came back into the room, I was having painful contractions & the Dr.checked me. I was 6 cm! Within 1 hour, I was at 9 cm! Pushed for 1/2 hour & she was here!  I really want to thank you for fitting me in your schedule that week. I feel that the treatment I received from you helped her move along & be born without being induced. See you at my next appt!","poster":"Annie Beck","profession":"Nurse","note":"this client's first child was medically induced."},{"content":"Dear Karen, It has been a little over a month and a half since Josh (age 13) had his first Reflexology treatment with you. During this period, both subtle and immediate changes have been noticed. When I brought Josh to see you,our main concern was his inability to focus on school work and remain still. It was recommended by a school psychologist the problem could be Attention Deficit Disorder, and having a medication prescribed -Ritalin. Not at all comfortable with their suggestion, we came to you. After 3 weeks of treatment, I received a call from a special education teacher at Josh's school. She wanted to know when we started Josh on the medication. There had been a noticeable difference in his behavior by one of his teachers. I was pleased to tell him, he was not on a chemical medication. Thank you.","poster":"Marlene Yates"}]
+
+/***/ }),
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -44944,10 +44938,10 @@ if (false) {
 }
 
 /***/ }),
-/* 78 */
+/* 69 */
 /***/ (function(module, exports) {
 
-module.exports = [{"content":"I had a long history of neck problems and headaches. After failed attempts through many different therapists, Karen was recommended to me by a friend. After only three treatments, I felt much better. She does a terrific job, I would recommend her to anyone.","poster":"Leo J. Burggraff","profession":"Rancher/Farmer"},{"content":"I originally went to Karen for knee and foot problems, but I soon noticed the improvements in my digestive tract. I had been suffering from digestive problems and colitis for almost 50 years. My health has improved and I feel relaxed and peaceful. Reflexology is wonderful for the nervous system. Her treatments are outstanding. She is personable, loving, knowledgeable, and so technically skilled,she is always right on target.","poster":"Sally Denigan","profession":"Retired Teacher"},{"content":"I suffered with pain in my whole body. The weekly treatments on my toes and feet changed my health, and got my seventy-four year old body to function much better. Karen, thank you for your excellent knowledge and know how.","poster":"Everett Wild","profession":"Retired Construction Worker"},{"content":"Hi Karen! Thank you I believe you helped me tremendously! It was amazing how it all turned out. We went in Friday morning, planning on being induced since nothing happened, I walked into the hospital; they took me to our laboring room and asked me to get into a hospital gown. At this point, I had no contractions. By the time the nurse came back into the room, I was having painful contractions & the Dr.checked me. I was 6 cm! Within 1 hour, I was at 9 cm! Pushed for 1/2 hour & she was here!  I really want to thank you for fitting me in your schedule that week. I feel that the treatment I received from you helped her move along & be born without being induced. See you at my next appt!","poster":"Annie Beck","profession":"Nurse","note":"this client's first child was medically induced."},{"content":"Dear Karen, It has been a little over a month and a half since Josh (age 13) had his first Reflexology treatment with you. During this period, both subtle and immediate changes have been noticed. When I brought Josh to see you,our main concern was his inability to focus on school work and remain still. It was recommended by a school psychologist the problem could be Attention Deficit Disorder, and having a medication prescribed -Ritalin. Not at all comfortable with their suggestion, we came to you. After 3 weeks of treatment, I received a call from a special education teacher at Josh's school. She wanted to know when we started Josh on the medication. There had been a noticeable difference in his behavior by one of his teachers. I was pleased to tell him, he was not on a chemical medication. Thank you.","poster":"Marlene Yates"}]
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

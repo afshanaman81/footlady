@@ -8,21 +8,24 @@
 	export default{
 		data(){
 			return{	
-				src: 'images/1.jpg',
+				src: 'images/slideshow/1.jpg',
 			}
 		},
 		mounted(){
 			let random
 			let images = []
-			images.push('images/1.jpg')
-			images.push('images/2.jpg')
-			images.push('images/teaching.jpg')
-			images.push('images/hands.jpg')
-			images.push('images/spa-party.jpg')
-			images.push('images/2.jpg')
+			images.push('images/slideshow/1.jpg')
+			images.push('images/slideshow/2.jpg')
+			images.push('images/slideshow/3.jpg')
+			images.push('images/slideshow/4.jpg')
+			images.push('images/slideshow/5.jpg')
+			images.push('images/slideshow/6.jpg')
+            images.push('images/slideshow/7.jpg')
+            images.push('images/slideshow/8.jpg')
 
 			setInterval(() =>{
-				random= Math.floor(Math.random() * 6);
+				random= Math.floor(Math.random() * 8)
+                console.log(random)
 				this.src = images[random]
 			}, 3000)
 		}
@@ -53,7 +56,7 @@
     }
     @media only screen and (max-width: 740px) and (orientation: landscape) {
         img{
-            height: 90vh;
+            height: 99vh;
         }
     }
 
@@ -61,7 +64,7 @@
     /*********** Device = Tablets, Ipads (portrait)*/
     @media only screen and (min-width: 768px) {
         img{
-        	height: 35vh;
+        	height: 40vh;
         }
     }
     @media only screen and (min-width: 768px) and (orientation: landscape) {
@@ -73,7 +76,7 @@
     /* Laptops (1280) */
     @media only screen and (min-width: 1280px) {
         img{
-        	height: 30vh;
+        	height: 35vh;
         }
     }
     @media only screen and (min-width: 1280px)  and (orientation: landscape){
@@ -93,7 +96,7 @@
     /* desktops- wide screen */
     @media only screen and (min-width: 1900px) {
         img{
-        	height: 30vh;
+        	height: 35vh;
         }
     }
     @media only screen and (min-width: 1900px)  and (orientation: landscape){

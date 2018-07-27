@@ -165,7 +165,7 @@
     /* desktops- wide screen */
     @media only screen and (min-width: 1900px) {
         .card{
-            height: 50vh;
+            height: 65vh;
         }
     }
     @media only screen and (min-width: 1900px)  and (orientation: landscape){

@@ -43987,7 +43987,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\nh5[data-v-0b29d7d5]{\n\t\tfont-weight: bold;\n\t\tcolor: #00837d;\n}\n.card[data-v-0b29d7d5]{\n\t\theight: 65vh;\n}\n.card-text[data-v-0b29d7d5]{\n        color: black;\n        font-weight: bold;\n}\n\n    /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n}\n\n\n    /*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n}\n\n    /* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n.card[data-v-0b29d7d5]{\n            height: 70vh;\n}\n}\n\n    /* other laptops */\n@media only screen and (min-width: 1440px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n.card[data-v-0b29d7d5]{\n            height: 60vh;\n}\n}\n\n    /* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n.card[data-v-0b29d7d5]{\n            height: 50vh;\n}\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
+exports.push([module.i, "\nh5[data-v-0b29d7d5]{\n\t\tfont-weight: bold;\n\t\tcolor: #00837d;\n}\n.card[data-v-0b29d7d5]{\n\t\theight: 65vh;\n}\n.card-text[data-v-0b29d7d5]{\n        color: black;\n        font-weight: bold;\n}\n\n    /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n}\n\n\n    /*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n}\n\n    /* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n.card[data-v-0b29d7d5]{\n            height: 70vh;\n}\n}\n\n    /* other laptops */\n@media only screen and (min-width: 1440px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n.card[data-v-0b29d7d5]{\n            height: 60vh;\n}\n}\n\n    /* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n.card[data-v-0b29d7d5]{\n            height: 65vh;\n}\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
 
 // exports
 
@@ -44519,7 +44519,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n.card-text[data-v-1ac7daf9]{\n        color: black;\n        font-weight: bold;\n}\n", ""]);
+exports.push([module.i, "\n.card[data-v-1ac7daf9]{\n\t\tmin-height: 32vh;\n}\n.card-text[data-v-1ac7daf9]{\n        color: black;\n        font-weight: bold;\n}\n", ""]);
 
 // exports
 

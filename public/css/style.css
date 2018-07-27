@@ -70,3 +70,83 @@ h5{
 .uniform-width{
     width: 11vw;
 }
+
+
+/*********** iPhones and SmartPhones ******************/
+    @media only screen and (max-width: 740px) {
+        .logo{
+            width: 70px;
+        }
+       .full-height {       
+            width: 95vw; 
+            margin: 5vh auto;         
+        }
+        .title{
+            font-size: 40px;
+        }
+        
+    }
+    @media only screen and (max-width: 740px) and (orientation: landscape) {
+
+    }
+
+
+    /*********** Device = Tablets, Ipads (portrait)*/
+    @media only screen and (min-width: 768px) {
+        .full-height {       
+            width: 90vw;         
+        }
+        .title{
+            font-size: 70px;
+        }
+        .links{
+            padding: 0 10px;
+         
+        }
+        .links > a{
+            padding: 0 17px;
+        }
+    }
+    @media only screen and (min-width: 768px) and (orientation: landscape) {
+        
+    }
+
+    /* Laptops (1280) */
+    @media only screen and (min-width: 1280px) {
+        .full-height {       
+            width: 70vw;         
+        }
+        .title{
+            font-size: 84px;
+        }
+    }
+    @media only screen and (min-width: 1280px)  and (orientation: landscape){
+        
+    }
+
+    /* other laptops */
+    @media only screen and (min-width: 1440px) {
+        .full-height {       
+            width: 70vw;         
+        }
+        
+    }
+    @media only screen and (min-width: 1440px)  and (orientation: landscape){
+        
+    }
+
+    /* desktops- wide screen */
+    @media only screen and (min-width: 1900px) {
+       .full-height {       
+            width: 60vw;         
+        }
+        .links{
+            padding: 0 25px;        
+        }
+        .links > a {
+            padding: 0 25px;
+        }
+    }
+    @media only screen and (min-width: 1900px)  and (orientation: landscape){
+       
+    }

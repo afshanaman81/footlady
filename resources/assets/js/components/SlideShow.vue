@@ -48,30 +48,32 @@
 	 /*********** iPhones and SmartPhones ******************/
     @media only screen and (max-width: 740px) {
         img{
-        	height: 60vh;
+        	height: 30vh;
         }
     }
     @media only screen and (max-width: 740px) and (orientation: landscape) {
-
+        img{
+            height: 90vh;
+        }
     }
 
 
     /*********** Device = Tablets, Ipads (portrait)*/
     @media only screen and (min-width: 768px) {
         img{
-        	height: 20vh;
+        	height: 35vh;
         }
     }
     @media only screen and (min-width: 768px) and (orientation: landscape) {
         img{
-        	height: 40vh;
+        	height: 70vh;
         }
     }
 
     /* Laptops (1280) */
     @media only screen and (min-width: 1280px) {
         img{
-        	height: 25vh;
+        	height: 30vh;
         }
     }
     @media only screen and (min-width: 1280px)  and (orientation: landscape){
@@ -81,7 +83,7 @@
     /* other laptops */
     @media only screen and (min-width: 1440px) {
 		img{
-        	height: 30vh;
+        	height: 35vh;
         }
     }
     @media only screen and (min-width: 1440px)  and (orientation: landscape){

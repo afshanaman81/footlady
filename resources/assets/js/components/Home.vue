@@ -22,7 +22,7 @@
                     <slide-show />
                 </div>
 
-                <div class="row quote form-group">
+                <div class="row quote text-center form-group">
                     <p>
                     "To think on one's feet, when my feet hurt I cannot think."
                         <br/><span class="float-right">Abraham Lincoln</span>
@@ -80,39 +80,51 @@
      /*********** iPhones and SmartPhones ******************/
     @media only screen and (max-width: 740px) {
         .taller{
-            height: 55%;
+            height: 50%;
         } 
         .quote{
-            margin: 5vh auto;
-            font-size: 20px;
+            margin: 10vh auto;
+            font-size: 14px;
         }
     }
     @media only screen and (max-width: 740px) and (orientation: landscape) {
-
+        .taller{
+            height: 35%;
+        } 
+        .quote{
+            margin: 20vh auto;
+            font-size: 20px;
+        }
     }
 
 
     /*********** Device = Tablets, Ipads (portrait)*/
     @media only screen and (min-width: 768px) {
         .taller{
-            height: 40%;
+            height: 25%;
         } 
         .quote{
-            margin: 10vh auto;
+            margin: 5vh auto;
             font-size: 24px;
         }
     }
     @media only screen and (min-width: 768px) and (orientation: landscape) {
-        
+        .taller{
+            height: 20%;
+        } 
+        .quote{
+            margin: 15vh auto;
+            font-size: 24px;
+        }
     }
 
     /* Laptops (1280) */
     @media only screen and (min-width: 1280px) {
         .taller{
-            height: 45%;
+            height: 30%;
         } 
         .quote{
-            margin: 13vh auto;
+            margin: 15vh auto;
             font-size: 24px;
         }
     }
@@ -123,7 +135,7 @@
     /* other laptops */
     @media only screen and (min-width: 1440px) {
         .taller{
-            height: 40%;
+            height: 35%;
         } 
         .quote{
             margin: 12vh auto;

@@ -1411,6 +1411,7 @@ Vue.component('home-page', __webpack_require__(44));
 Vue.component('services-page', __webpack_require__(50));
 Vue.component('slide-show', __webpack_require__(55));
 Vue.component('contact-page', __webpack_require__(60));
+Vue.component('testimonials-page', __webpack_require__(75));
 
 var app = new Vue({
   el: '#app'
@@ -43677,7 +43678,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n.taller[data-v-85ef4954]{\n    height: 30%;\n    padding: 0 3vw;\n    margin-bottom: 5vh;\n}\n.quote[data-v-85ef4954]{\n    margin: 10vh auto;\n    color: red;\n    font-size: 30px;\n    font-style: italic;\n}\n.card-text[data-v-85ef4954]{\n    color: black;\n}\n\n /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.taller[data-v-85ef4954]{\n        height: 55%;\n}\n.quote[data-v-85ef4954]{\n        margin: 5vh auto;\n        font-size: 20px;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n}\n\n\n/*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.taller[data-v-85ef4954]{\n        height: 40%;\n}\n.quote[data-v-85ef4954]{\n        margin: 10vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n}\n\n/* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.taller[data-v-85ef4954]{\n        height: 45%;\n}\n.quote[data-v-85ef4954]{\n        margin: 13vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n/* other laptops */\n@media only screen and (min-width: 1440px) {\n.taller[data-v-85ef4954]{\n        height: 40%;\n}\n.quote[data-v-85ef4954]{\n        margin: 12vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n/* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
+exports.push([module.i, "\n.taller[data-v-85ef4954]{\n    height: 30%;\n    padding: 0 3vw;\n    margin-bottom: 5vh;\n}\n.quote[data-v-85ef4954]{\n    margin: 10vh auto;\n    color: red;\n    font-size: 30px;\n    font-style: italic;\n}\n.card-text[data-v-85ef4954]{\n    color: black;\n}\n\n /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.taller[data-v-85ef4954]{\n        height: 50%;\n}\n.quote[data-v-85ef4954]{\n        margin: 10vh auto;\n        font-size: 14px;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n.taller[data-v-85ef4954]{\n        height: 35%;\n}\n.quote[data-v-85ef4954]{\n        margin: 20vh auto;\n        font-size: 20px;\n}\n}\n\n\n/*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.taller[data-v-85ef4954]{\n        height: 25%;\n}\n.quote[data-v-85ef4954]{\n        margin: 5vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n.taller[data-v-85ef4954]{\n        height: 20%;\n}\n.quote[data-v-85ef4954]{\n        margin: 15vh auto;\n        font-size: 24px;\n}\n}\n\n/* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.taller[data-v-85ef4954]{\n        height: 30%;\n}\n.quote[data-v-85ef4954]{\n        margin: 15vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n/* other laptops */\n@media only screen and (min-width: 1440px) {\n.taller[data-v-85ef4954]{\n        height: 35%;\n}\n.quote[data-v-85ef4954]{\n        margin: 12vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n/* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
 
 // exports
 
@@ -43842,7 +43843,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row quote form-group" }, [
+    return _c("div", { staticClass: "row quote text-center form-group" }, [
       _c("p", [
         _vm._v(
           '\n                "To think on one\'s feet, when my feet hurt I cannot think."\n                    '
@@ -44368,7 +44369,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n#background-image[data-v-1951a032]{\n\t\t/* BOX MODEL */\n\t\tz-index: 0;\n\n\t\t/* ENHANCEMENT */\n\t\tbackground-position: center center;\n\t\tbackground-size: cover;\n\t\tbackground-repeat: no-repeat;\n}\nimg[data-v-1951a032]{\n\t\twidth: 100%;\n\t\theight: 30vh;\n}\n\n\t /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\nimg[data-v-1951a032]{\n        \theight: 60vh;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n}\n\n\n    /*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\nimg[data-v-1951a032]{\n        \theight: 20vh;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\nimg[data-v-1951a032]{\n        \theight: 40vh;\n}\n}\n\n    /* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\nimg[data-v-1951a032]{\n        \theight: 25vh;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n    /* other laptops */\n@media only screen and (min-width: 1440px) {\nimg[data-v-1951a032]{\n        \theight: 30vh;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n    /* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\nimg[data-v-1951a032]{\n        \theight: 30vh;\n}\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
+exports.push([module.i, "\n#background-image[data-v-1951a032]{\n\t\t/* BOX MODEL */\n\t\tz-index: 0;\n\n\t\t/* ENHANCEMENT */\n\t\tbackground-position: center center;\n\t\tbackground-size: cover;\n\t\tbackground-repeat: no-repeat;\n}\nimg[data-v-1951a032]{\n\t\twidth: 100%;\n\t\theight: 30vh;\n}\n\n\t /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\nimg[data-v-1951a032]{\n        \theight: 30vh;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\nimg[data-v-1951a032]{\n            height: 90vh;\n}\n}\n\n\n    /*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\nimg[data-v-1951a032]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\nimg[data-v-1951a032]{\n        \theight: 70vh;\n}\n}\n\n    /* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\nimg[data-v-1951a032]{\n        \theight: 30vh;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n    /* other laptops */\n@media only screen and (min-width: 1440px) {\nimg[data-v-1951a032]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n    /* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\nimg[data-v-1951a032]{\n        \theight: 30vh;\n}\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
 
 // exports
 
@@ -44642,17 +44643,21 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row form-group" }, [
-        _c("div", { staticClass: "col-md" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md form-group" }, [
           _c("div", { staticClass: "card" }, [
             _c("div", { staticClass: "card-body" }, [
               _c("h5", { staticClass: "card-title" }, [_vm._v("HISTORY")]),
               _vm._v(" "),
               _c("table", { staticClass: "table text-justify" }, [
                 _c("tr", [
-                  _c("td", [_c("i", { staticClass: "fa fa-flag" })]),
+                  _c("td", { attrs: { width: "10%" } }, [
+                    _c("i", { staticClass: "fa fa-flag" })
+                  ]),
                   _vm._v(" "),
-                  _c("td", [_vm._v("Founded in:")]),
+                  _c("td", { attrs: { width: "15%" } }, [
+                    _vm._v("Founded in:")
+                  ]),
                   _vm._v(" "),
                   _c("td", [_vm._v("1988")])
                 ]),
@@ -44673,16 +44678,18 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md" }, [
+        _c("div", { staticClass: "col-md form-group" }, [
           _c("div", { staticClass: "card" }, [
             _c("div", { staticClass: "card-body" }, [
               _c("h5", { staticClass: "card-title" }, [_vm._v("CONTACT INFO")]),
               _vm._v(" "),
               _c("table", { staticClass: "table text-justify" }, [
                 _c("tr", [
-                  _c("td", [_c("i", { staticClass: "fa fa-phone" })]),
+                  _c("td", { attrs: { width: "10%" } }, [
+                    _c("i", { staticClass: "fa fa-phone" })
+                  ]),
                   _vm._v(" "),
-                  _c("td", [_vm._v("Call:")]),
+                  _c("td", { attrs: { width: "15%" } }, [_vm._v("Call:")]),
                   _vm._v(" "),
                   _c("td", [_vm._v("(303) 776-1165")])
                 ]),
@@ -44720,8 +44727,8 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "row form-group" }, [
-        _c("div", { staticClass: "col-md" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md form-group" }, [
           _c("div", { staticClass: "card" }, [
             _c("div", { staticClass: "card-body" }, [
               _c("h5", { staticClass: "card-title" }, [
@@ -44730,9 +44737,11 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("table", { staticClass: "table text-justify" }, [
                 _c("tr", [
-                  _c("td", [_c("i", { staticClass: "fa fa-magic" })]),
+                  _c("td", { attrs: { width: "10%" } }, [
+                    _c("i", { staticClass: "fa fa-magic" })
+                  ]),
                   _vm._v(" "),
-                  _c("td", { attrs: { width: "30%" } }, [_vm._v("Category:")]),
+                  _c("td", { attrs: { width: "15%" } }, [_vm._v("Category:")]),
                   _vm._v(" "),
                   _c("td", { staticClass: "card-text" }, [
                     _vm._v("Health/Beauty")
@@ -44742,7 +44751,7 @@ var staticRenderFns = [
                 _c("tr", [
                   _c("td", [_c("i", { staticClass: "fa fa-certificate" })]),
                   _vm._v(" "),
-                  _c("td", { attrs: { width: "30%" } }, [_vm._v("About:")]),
+                  _c("td", [_vm._v("About:")]),
                   _vm._v(" "),
                   _c("td", { staticClass: "card-text" }, [
                     _vm._v(
@@ -44796,6 +44805,149 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 66 */,
+/* 67 */,
+/* 68 */,
+/* 69 */,
+/* 70 */,
+/* 71 */,
+/* 72 */,
+/* 73 */,
+/* 74 */,
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = __webpack_require__(76)
+/* template */
+var __vue_template__ = __webpack_require__(77)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\Testimonials.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-188394ab", Component.options)
+  } else {
+    hotAPI.reload("data-v-188394ab", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 76 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+var testimonials = __webpack_require__(78);
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            data: []
+        };
+    },
+    mounted: function mounted() {
+        console.log('Component mounted.');
+        console.log(testimonials);
+        this.data = testimonials;
+    }
+});
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    _vm._l(_vm.data, function(t) {
+      return _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md form-group" }, [
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card-body" }, [
+              _c("p", [_vm._v(_vm._s(t.content))]),
+              _vm._v(" "),
+              _c("p", { staticClass: "float-right" }, [
+                _c("i", [
+                  _vm._v(_vm._s(t.poster)),
+                  t.profession
+                    ? _c("span", [_vm._v(", " + _vm._s(t.profession))])
+                    : _vm._e()
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    })
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-188394ab", module.exports)
+  }
+}
+
+/***/ }),
+/* 78 */
+/***/ (function(module, exports) {
+
+module.exports = [{"content":"I had a long history of neck problems and headaches. After failed attempts through many different therapists, Karen was recommended to me by a friend. After only three treatments, I felt much better. She does a terrific job, I would recommend her to anyone.","poster":"Leo J. Burggraff","profession":"Rancher/Farmer"},{"content":"I originally went to Karen for knee and foot problems, but I soon noticed the improvements in my digestive tract. I had been suffering from digestive problems and colitis for almost 50 years. My health has improved and I feel relaxed and peaceful. Reflexology is wonderful for the nervous system. Her treatments are outstanding. She is personable, loving, knowledgeable, and so technically skilled,she is always right on target.","poster":"Sally Denigan","profession":"Retired Teacher"},{"content":"I suffered with pain in my whole body. The weekly treatments on my toes and feet changed my health, and got my seventy-four year old body to function much better. Karen, thank you for your excellent knowledge and know how.","poster":"Everett Wild","profession":"Retired Construction Worker"},{"content":"Hi Karen! Thank you I believe you helped me tremendously! It was amazing how it all turned out. We went in Friday morning, planning on being induced since nothing happened, I walked into the hospital; they took me to our laboring room and asked me to get into a hospital gown. At this point, I had no contractions. By the time the nurse came back into the room, I was having painful contractions & the Dr.checked me. I was 6 cm! Within 1 hour, I was at 9 cm! Pushed for 1/2 hour & she was here!  I really want to thank you for fitting me in your schedule that week. I feel that the treatment I received from you helped her move along & be born without being induced. See you at my next appt!","poster":"Annie Beck","profession":"Nurse","note":"this client's first child was medically induced."},{"content":"Dear Karen, It has been a little over a month and a half since Josh (age 13) had his first Reflexology treatment with you. During this period, both subtle and immediate changes have been noticed. When I brought Josh to see you,our main concern was his inability to focus on school work and remain still. It was recommended by a school psychologist the problem could be Attention Deficit Disorder, and having a medication prescribed -Ritalin. Not at all comfortable with their suggestion, we came to you. After 3 weeks of treatment, I received a call from a special education teacher at Josh's school. She wanted to know when we started Josh on the medication. There had been a noticeable difference in his behavior by one of his teachers. I was pleased to tell him, he was not on a chemical medication. Thank you.","poster":"Marlene Yates"}]
 
 /***/ })
 /******/ ]);

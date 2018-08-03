@@ -8,20 +8,20 @@
 	export default{
 		data(){
 			return{	
-				src: 'images/slideshow/1.jpg',
+				src: 'images/slideshow/1.JPG',
 			}
 		},
 		mounted(){
 			let random
 			let images = []
-			images.push('images/slideshow/1.jpg')
-			images.push('images/slideshow/2.jpg')
-			images.push('images/slideshow/3.jpg')
-			images.push('images/slideshow/4.jpg')
-			images.push('images/slideshow/5.jpg')
-			images.push('images/slideshow/6.jpg')
-            images.push('images/slideshow/7.jpg')
-            images.push('images/slideshow/8.jpg')
+			images.push('images/slideshow/1.JPG')
+			images.push('images/slideshow/2.JPG')
+			images.push('images/slideshow/3.JPG')
+			images.push('images/slideshow/4.JPG')
+			images.push('images/slideshow/5.JPG')
+			images.push('images/slideshow/6.JPG')
+			images.push('images/slideshow/7.JPG')
+			images.push('images/slideshow/8.JPG')
 
 			setInterval(() =>{
 				random= Math.floor(Math.random() * 8)

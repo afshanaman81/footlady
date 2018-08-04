@@ -14,7 +14,14 @@
 		mounted(){
 			let random
 			let images = []
-			
+			images.push('images/slideshow/1.JPG')
+			images.push('images/slideshow/2.JPG')
+			images.push('images/slideshow/3.JPG')
+			images.push('images/slideshow/4.JPG')
+			images.push('images/slideshow/5.JPG')
+			images.push('images/slideshow/6.JPG')
+			images.push('images/slideshow/7.JPG')
+			images.push('images/slideshow/8.JPG')
 
 			setInterval(() =>{
 				random= Math.floor(Math.random() * 8)

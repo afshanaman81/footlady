@@ -4,7 +4,7 @@
             <div class="col-xs-12 col-xl-6 form-group">
                 <div class="panel panel-default">
                     <div class="card">
-                        <img class="card-img-top" src="images/corporate.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/services/corporate.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">On-site Employee Wellness</h5>
                             <p>Duration: 30 mins, Price varies</p>
@@ -26,7 +26,7 @@
                             Classes, Conferences and Seminars for Private, Corporations, Hospitals, Nursing Care Facilities, Senior Centers, City or University events- Self help, Foot care, Women's Health, Children's Health
                             </p>                            
                         </div>
-                        <img class="card-img-top" src="images/teaching.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/services/teaching.jpg" alt="Card image cap">
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
             <div class="col-xs-12 col-xl-6 form-group">
                 <div class="panel panel-default">
                     <div class="card">
-                        <img class="card-img-top" src="images/children.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/services/children.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Children's Health</h5>
                             <p>Price varies</p>
@@ -56,7 +56,7 @@
                             Holiday, Spa, Option to Sun/Mon Football games, Birthdays, Valentine's, Clubs FOR-Gals, Guys, Couples,Teens, New Mommies, Fund Raisers- My office, your home or Business. 20-30min sessions on feet/legs
                             </p>                           
                         </div>
-                        <img class="card-img-top" src="images/spa-party.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/services/spa-party.jpg" alt="Card image cap">
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
             <div class="col-xs-12 col-xl-6 form-group">
                 <div class="panel panel-default">
                     <div class="card">
-                        <img class="card-img-top" src="images/hands.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/services/hands.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Hand Reflexology</h5>
                             <p>Duration: 30 mins, Price: $35</p>
@@ -87,7 +87,7 @@
                             </p>
                             
                         </div>
-                        <img class="card-img-top" src="images/labor.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/services/labor.jpg" alt="Card image cap">
                     </div>
                 </div>
             </div>

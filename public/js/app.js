@@ -43678,7 +43678,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n.taller[data-v-85ef4954]{\n    height: 30%;\n    padding: 0 3vw;\n    margin-bottom: 5vh;\n}\n.quote[data-v-85ef4954]{\n    margin: 10vh auto;\n    color: red;\n    font-size: 30px;\n    font-style: italic;\n}\n.card-text[data-v-85ef4954]{\n    color: black;\n}\n\n /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.taller[data-v-85ef4954]{\n        height: 50%;\n}\n.quote[data-v-85ef4954]{\n        margin: 10vh auto;\n        font-size: 14px;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n.taller[data-v-85ef4954]{\n        height: 35%;\n}\n.quote[data-v-85ef4954]{\n        margin: 20vh auto;\n        font-size: 20px;\n}\n}\n\n\n/*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.taller[data-v-85ef4954]{\n        height: 25%;\n}\n.quote[data-v-85ef4954]{\n        margin: 5vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n.taller[data-v-85ef4954]{\n        height: 20%;\n}\n.quote[data-v-85ef4954]{\n        margin: 15vh auto;\n        font-size: 24px;\n}\n}\n\n/* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.taller[data-v-85ef4954]{\n        height: 30%;\n}\n.quote[data-v-85ef4954]{\n        margin: 15vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n/* other laptops */\n@media only screen and (min-width: 1440px) {\n.taller[data-v-85ef4954]{\n        height: 35%;\n}\n.quote[data-v-85ef4954]{\n        margin: 12vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n/* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
+exports.push([module.i, "\n.taller[data-v-85ef4954]{\n    height: 30%;\n    padding: 0 3vw;\n    margin-bottom: 5vh;\n}\n.quote[data-v-85ef4954]{\n    margin: 10vh auto;\n    color: red;\n    font-size: 30px;\n    font-style: italic;\n}\n.card-text[data-v-85ef4954]{\n    color: black;\n}\n.sub-title[data-v-85ef4954]{\n    font-weight: bold;\n    color: red;\n    font-style: italic;\n}\n\n /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.taller[data-v-85ef4954]{\n        height: 50%;\n}\n.quote[data-v-85ef4954]{\n        margin: 10vh auto;\n        font-size: 14px;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n.taller[data-v-85ef4954]{\n        height: 35%;\n}\n.quote[data-v-85ef4954]{\n        margin: 20vh auto;\n        font-size: 20px;\n}\n}\n\n\n/*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.taller[data-v-85ef4954]{\n        height: 25%;\n}\n.quote[data-v-85ef4954]{\n        margin: 5vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n.taller[data-v-85ef4954]{\n        height: 20%;\n}\n.quote[data-v-85ef4954]{\n        margin: 15vh auto;\n        font-size: 24px;\n}\n}\n\n/* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.taller[data-v-85ef4954]{\n        height: 30%;\n}\n.quote[data-v-85ef4954]{\n        margin: 15vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n/* other laptops */\n@media only screen and (min-width: 1440px) {\n.taller[data-v-85ef4954]{\n        height: 35%;\n}\n.quote[data-v-85ef4954]{\n        margin: 12vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n/* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
 
 // exports
 
@@ -43722,6 +43722,10 @@ module.exports = function listToStyles (parentId, list) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
 //
 //
 //
@@ -43871,13 +43875,15 @@ var staticRenderFns = [
             _c("div", { staticClass: "card-body" }, [
               _c("h4", { staticClass: "card-title" }, [_vm._v("My Story")]),
               _vm._v(" "),
-              _c("h5", { staticClass: "text-center" }, [
-                _vm._v('"Dedicated to helping people “HEEL”, 1 Step at a time"')
+              _c("span", { staticClass: "text-center sub-title" }, [
+                _vm._v(
+                  "\n                            Dedicated to helping people “HEEL”, 1 Step at a time\n                        "
+                )
               ]),
               _vm._v(" "),
               _c("p", { staticClass: "card-text text-justify" }, [
                 _vm._v(
-                  "Karen is a “Structural” Reflexologist, specializing in foot pain, with over 30 years of experience, and located in Colorado. She has been Nationally Board Certified, has been Certified through the International Institute of Reflexology in Fl., and was certified with the Laura Norman School of Reflexology, in N.Y.C."
+                  "\n                        Karen is an Instructor for the Reflexology Program at the Boulder Massage Institute. She is a “Structural” Reflexologist, specializing in foot pain, with over 30 years of experience, and located in Colorado. She has been Nationally Board Certified, has been Certified through the International Institute of Reflexology in Fl., and was certified with the Laura Norman School of Reflexology, in N.Y.C."
                 )
               ]),
               _vm._v(" "),
@@ -44126,7 +44132,10 @@ var staticRenderFns = [
             _c("div", { staticClass: "card" }, [
               _c("img", {
                 staticClass: "card-img-top",
-                attrs: { src: "images/corporate.jpg", alt: "Card image cap" }
+                attrs: {
+                  src: "images/services/corporate.jpg",
+                  alt: "Card image cap"
+                }
               }),
               _vm._v(" "),
               _c("div", { staticClass: "card-body" }, [
@@ -44165,7 +44174,10 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("img", {
                 staticClass: "card-img-top",
-                attrs: { src: "images/teaching.jpg", alt: "Card image cap" }
+                attrs: {
+                  src: "images/services/teaching.jpg",
+                  alt: "Card image cap"
+                }
               })
             ])
           ])
@@ -44176,7 +44188,10 @@ var staticRenderFns = [
             _c("div", { staticClass: "card" }, [
               _c("img", {
                 staticClass: "card-img-top",
-                attrs: { src: "images/children.jpg", alt: "Card image cap" }
+                attrs: {
+                  src: "images/services/children.jpg",
+                  alt: "Card image cap"
+                }
               }),
               _vm._v(" "),
               _c("div", { staticClass: "card-body" }, [
@@ -44215,7 +44230,10 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("img", {
                 staticClass: "card-img-top",
-                attrs: { src: "images/spa-party.jpg", alt: "Card image cap" }
+                attrs: {
+                  src: "images/services/spa-party.jpg",
+                  alt: "Card image cap"
+                }
               })
             ])
           ])
@@ -44226,7 +44244,10 @@ var staticRenderFns = [
             _c("div", { staticClass: "card" }, [
               _c("img", {
                 staticClass: "card-img-top",
-                attrs: { src: "images/hands.jpg", alt: "Card image cap" }
+                attrs: {
+                  src: "images/services/hands.jpg",
+                  alt: "Card image cap"
+                }
               }),
               _vm._v(" "),
               _c("div", { staticClass: "card-body" }, [
@@ -44265,7 +44286,10 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("img", {
                 staticClass: "card-img-top",
-                attrs: { src: "images/labor.jpg", alt: "Card image cap" }
+                attrs: {
+                  src: "images/services/labor.jpg",
+                  alt: "Card image cap"
+                }
               })
             ])
           ])
@@ -44523,7 +44547,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n.card[data-v-1ac7daf9]{\n\t\tmin-height: 32vh;\n}\n.card-text[data-v-1ac7daf9]{\n        color: black;\n        font-weight: bold;\n}\n", ""]);
+exports.push([module.i, "\n.card[data-v-1ac7daf9]{\n\t\tmin-height: 25vh;\n}\n.card-text[data-v-1ac7daf9]{\n        color: black;\n        font-weight: bold;\n}\n", ""]);
 
 // exports
 
@@ -44534,14 +44558,6 @@ exports.push([module.i, "\n.card[data-v-1ac7daf9]{\n\t\tmin-height: 32vh;\n}\n.c
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -44650,40 +44666,6 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-md form-group" }, [
           _c("div", { staticClass: "card" }, [
             _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [_vm._v("HISTORY")]),
-              _vm._v(" "),
-              _c("table", { staticClass: "table text-justify" }, [
-                _c("tr", [
-                  _c("td", { attrs: { width: "10%" } }, [
-                    _c("i", { staticClass: "fa fa-flag" })
-                  ]),
-                  _vm._v(" "),
-                  _c("td", { attrs: { width: "15%" } }, [
-                    _vm._v("Founded in:")
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("1988")])
-                ]),
-                _vm._v(" "),
-                _c("tr", [
-                  _c("td", [_c("i", { staticClass: "fab fa-envira" })]),
-                  _vm._v(" "),
-                  _c("td", [_vm._v("Mission:")]),
-                  _vm._v(" "),
-                  _c("td", { staticClass: "card-text" }, [
-                    _vm._v(
-                      "My passion is to assist clients in the elimination of foot pain and to educate them in self care and maintenance."
-                    )
-                  ])
-                ])
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md form-group" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-body" }, [
               _c("h5", { staticClass: "card-title" }, [_vm._v("CONTACT INFO")]),
               _vm._v(" "),
               _c("table", { staticClass: "table text-justify" }, [
@@ -44712,7 +44694,19 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("td", [_vm._v("Messenger:")]),
                   _vm._v(" "),
-                  _c("td", [_vm._v("m.me/Footladyinco")])
+                  _c("td", [
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href:
+                            "https://www.facebook.com/messages/t/Footladyinco",
+                          target: "_blank"
+                        }
+                      },
+                      [_vm._v("m.me/Footladyinco")]
+                    )
+                  ])
                 ]),
                 _vm._v(" "),
                 _c("tr", [
@@ -44722,7 +44716,11 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("td", [_vm._v("Web:")]),
                   _vm._v(" "),
-                  _c("td", [_vm._v("http://footlady.net")])
+                  _c("td", [
+                    _c("a", { attrs: { href: "http://footlady.net" } }, [
+                      _vm._v("http://footlady.net")
+                    ])
+                  ])
                 ])
               ])
             ])
@@ -44752,13 +44750,37 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("tr", [
-                  _c("td", [_c("i", { staticClass: "fa fa-certificate" })]),
+                  _c("td", { attrs: { width: "10%" } }, [
+                    _c("i", { staticClass: "fa fa-flag" })
+                  ]),
+                  _vm._v(" "),
+                  _c("td", { attrs: { width: "15%" } }, [
+                    _vm._v("Founded in:")
+                  ]),
+                  _vm._v(" "),
+                  _c("td", { staticClass: "card-text" }, [_vm._v("1988")])
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td", [_c("i", { staticClass: "fab fa-envira" })]),
+                  _vm._v(" "),
+                  _c("td", [_vm._v("Mission:")]),
+                  _vm._v(" "),
+                  _c("td", { staticClass: "card-text" }, [
+                    _vm._v(
+                      "My passion is to assist clients in the elimination of foot pain and to educate them in self care and maintenance."
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("tr", [
+                  _c("td", [_c("i", { staticClass: "fa fa-info" })]),
                   _vm._v(" "),
                   _c("td", [_vm._v("About:")]),
                   _vm._v(" "),
                   _c("td", { staticClass: "card-text" }, [
                     _vm._v(
-                      "Structural Foot Reflexologist, Specializing in foot pain, \n\t\t\t\t\t\t\t\tEar & Hand Reflexology, Foot Joint Mobilization"
+                      "Structural Foot Reflexologist, Specializing in foot pain, \n\t\t\t\t\tEar & Hand Reflexology, Foot Joint Mobilization"
                     )
                   ])
                 ]),
@@ -44776,7 +44798,7 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("tr", [
-                  _c("td", [_c("i", { staticClass: "fa fa-info" })]),
+                  _c("td", [_c("i", { staticClass: "fa fa-certificate" })]),
                   _vm._v(" "),
                   _c("td", [_vm._v("Products:")]),
                   _vm._v(" "),

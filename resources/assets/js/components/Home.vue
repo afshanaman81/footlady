@@ -38,9 +38,13 @@
                         <div class="card-body">
                             <h4 class="card-title">My Story</h4>
 
-                            <h5 class="text-center">"Dedicated to helping people “HEEL”, 1 Step at a time"</h5>
+                            <span class="text-center sub-title">
+                                Dedicated to helping people “HEEL”, 1 Step at a time
+                            </span>
                             
-                            <p class="card-text text-justify">Karen is a “Structural” Reflexologist, specializing in foot pain, with over 30 years of experience, and located in Colorado. She has been Nationally Board Certified, has been Certified through the International Institute of Reflexology in Fl., and was certified with the Laura Norman School of Reflexology, in N.Y.C.</p>
+                            
+                            <p class="card-text text-justify">
+                            Karen is an Instructor for the Reflexology Program at the Boulder Massage Institute. She is a “Structural” Reflexologist, specializing in foot pain, with over 30 years of experience, and located in Colorado. She has been Nationally Board Certified, has been Certified through the International Institute of Reflexology in Fl., and was certified with the Laura Norman School of Reflexology, in N.Y.C.</p>
                             
                             <p class="card-text text-justify">
                             Karen’s training is extensive. Her Reflexology education includes courses with Masters from around the world. Her studies range from different Foot Reflexology Techniques to Hand and Ear Reflexology, Foot “Joint Mobilization and Loosening”, Foot Reading, Bio mechanics, Anatomy and Physiology, Gait analysis and Functional Evaluation of feet and legs, Meridian Therapy Reflexology, Reflexatsu, Color Therapy Reflexology, Reflexognosy, Proprioceptive Neuromuscular Facilitation, Indian Champissage, Herbal and Homeopathy studies, and Laser Therapy.</p>
@@ -75,6 +79,11 @@
     }
     .card-text{
         color: black;        
+    }
+    .sub-title{
+        font-weight: bold;
+        color: red;
+        font-style: italic;
     }
 
      /*********** iPhones and SmartPhones ******************/

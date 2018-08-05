@@ -18,12 +18,14 @@
 							<tr>
 								<td><i class="fab fa-facebook-messenger"></i></td>
 								<td>Messenger:</td>
-								<td>m.me/Footladyinco</td>
+								<td>
+									<a href="https://www.facebook.com/messages/t/Footladyinco" target="_blank">m.me/Footladyinco</a>
+								</td>
 							</tr>
 							<tr>
 								<td><i class="fab fa-internet-explorer"></i></td>
 								<td>Web:</td>
-								<td>http://footlady.net</td>
+								<td><a href="http://footlady.net">http://footlady.net</a></td>
 							</tr>  
 						</table>
                     </div>
@@ -46,14 +48,14 @@
 				<tr>
 					<td width="10%"><i class="fa fa-flag"></i></td>
 					<td width="15%">Founded in:</td>
-					<td>1988</td></tr>
+					<td class="card-text">1988</td></tr>
 				<tr>
 					<td><i class="fab fa-envira"></i></td>
 					<td>Mission:</td>
 					<td class="card-text">My passion is to assist clients in the elimination of foot pain and to educate them in self care and maintenance.</td>
 				</tr>	
 				<tr>
-					<td><i class="fa fa-certificate"></i></td>
+					<td><i class="fa fa-info"></i></td>
 					<td>About:</td>
 					<td class="card-text">Structural Foot Reflexologist, Specializing in foot pain, 
 					Ear & Hand Reflexology, Foot Joint Mobilization</td>
@@ -64,7 +66,7 @@
 					<td class="card-text">Nationally Board Certified, Past President, Vice-President and Activities Director of the Associated Reflexologists of Colorado, Inaugurated Reflexology at Longmont United Hospital 1995, Instructed Reflexology at the Naropa Institute, Boulder/Healing Spirits Massage School, Boulder/Colorado State University, Ft.Collins/City of Loveland/City of Ft. Collins/City of Longmont/Longmont United Hospital</td>
 				</tr>
 				<tr>
-					<td><i class="fa fa-info"></i></td>
+					<td><i class="fa fa-certificate"></i></td>
 					<td>Products:</td>
 					<td class="card-text">Pain Eraser Reflexology balls and rollers, Laser cut files for calluses, locally made lotions and soap</td>
 				</tr>  
@@ -87,7 +89,7 @@
 
 <style scoped>
 	.card{
-		min-height: 32vh;
+		min-height: 25vh;
 	}
 	.card-text{
         color: black;

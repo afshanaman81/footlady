@@ -44259,7 +44259,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("p", { staticClass: "card-text" }, [
                   _vm._v(
-                    "\n                            Do you suffer from Pain, lack of Mobility and Range of Motion or Stiffness in your Hands or Wrists? Have you been diagnosed with Arthritis,Carpal Tunnel Rheumatoid Arthritis, trigger finger?\n                            "
+                    "\n                            Do you suffer from Pain, lack of Mobility and Range of Motion or Stiffness in your Hands or Wrists? Have you been diagnosed with Arthritis,Carpal Tunnel, Rheumatoid Arthritis, trigger finger?\n                            "
                   )
                 ])
               ])
@@ -44717,8 +44717,8 @@ var staticRenderFns = [
                   _c("td", [_vm._v("Web:")]),
                   _vm._v(" "),
                   _c("td", [
-                    _c("a", { attrs: { href: "http://footlady.net" } }, [
-                      _vm._v("http://footlady.net")
+                    _c("a", { attrs: { href: "http://www.footlady.net" } }, [
+                      _vm._v("http://www.footlady.net")
                     ])
                   ])
                 ])

@@ -25,7 +25,7 @@
 							<tr>
 								<td><i class="fab fa-internet-explorer"></i></td>
 								<td>Web:</td>
-								<td><a href="http://footlady.net">http://footlady.net</a></td>
+								<td><a href="http://www.footlady.net">http://www.footlady.net</a></td>
 							</tr>  
 						</table>
                     </div>

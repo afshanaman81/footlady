@@ -69,7 +69,7 @@
                             <h5 class="card-title">Hand Reflexology</h5>
                             <p>Duration: 30 mins, Price: $35</p>
                             <p class="card-text">
-                            Do you suffer from Pain, lack of Mobility and Range of Motion or Stiffness in your Hands or Wrists? Have you been diagnosed with Arthritis,Carpal Tunnel Rheumatoid Arthritis, trigger finger?
+                            Do you suffer from Pain, lack of Mobility and Range of Motion or Stiffness in your Hands or Wrists? Have you been diagnosed with Arthritis,Carpal Tunnel, Rheumatoid Arthritis, trigger finger?
                             </p>                           
                         </div>
                         

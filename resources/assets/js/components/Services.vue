@@ -112,9 +112,8 @@
 	.card{
 		height: 65vh;
 	}
-    .card-body{
-        border: 1px solid red;
-    }
+    .card-body{}
+    
     .card-text{
         color: black;
         font-weight: bold;

@@ -66,6 +66,7 @@ h5{
     margin: 3vh auto;
     padding: 3vh;
     border: 15px solid #00837d;
+    height: 100%;
 }
 .uniform-width{
     width: 11vw;

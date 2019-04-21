@@ -43499,7 +43499,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\Example.vue"
+Component.options.__file = "resources/assets/js/components/Example.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -43508,9 +43508,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-b6ebd97a", Component.options)
+    hotAPI.createRecord("data-v-650f2efa", Component.options)
   } else {
-    hotAPI.reload("data-v-b6ebd97a", Component.options)
+    hotAPI.reload("data-v-650f2efa", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -43588,7 +43588,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-b6ebd97a", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-650f2efa", module.exports)
   }
 }
 
@@ -43611,7 +43611,7 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-85ef4954"
+var __vue_scopeId__ = "data-v-6707e3d4"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -43622,7 +43622,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\Home.vue"
+Component.options.__file = "resources/assets/js/components/Home.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -43631,9 +43631,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-85ef4954", Component.options)
+    hotAPI.createRecord("data-v-6707e3d4", Component.options)
   } else {
-    hotAPI.reload("data-v-85ef4954", Component.options)
+    hotAPI.reload("data-v-6707e3d4", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -43654,13 +43654,13 @@ var content = __webpack_require__(46);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("1ea1b3e8", content, false, {});
+var update = __webpack_require__(4)("447a94f8", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-85ef4954\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Home.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-85ef4954\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Home.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6707e3d4\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Home.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6707e3d4\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Home.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -43678,7 +43678,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n.taller[data-v-85ef4954]{\n    height: 30%;\n    padding: 0 3vw;\n    margin-bottom: 5vh;\n}\n.quote[data-v-85ef4954]{\n    margin: 10vh auto;\n    color: red;\n    font-size: 30px;\n    font-style: italic;\n}\n.card-text[data-v-85ef4954]{\n    color: black;\n}\n.sub-title[data-v-85ef4954]{\n    font-weight: bold;\n    color: red;\n    font-style: italic;\n}\n\n /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.taller[data-v-85ef4954]{\n        height: 50%;\n}\n.quote[data-v-85ef4954]{\n        margin: 10vh auto;\n        font-size: 14px;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n.taller[data-v-85ef4954]{\n        height: 35%;\n}\n.quote[data-v-85ef4954]{\n        margin: 20vh auto;\n        font-size: 20px;\n}\n}\n\n\n/*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.taller[data-v-85ef4954]{\n        height: 25%;\n}\n.quote[data-v-85ef4954]{\n        margin: 5vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n.taller[data-v-85ef4954]{\n        height: 20%;\n}\n.quote[data-v-85ef4954]{\n        margin: 15vh auto;\n        font-size: 24px;\n}\n}\n\n/* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.taller[data-v-85ef4954]{\n        height: 30%;\n}\n.quote[data-v-85ef4954]{\n        margin: 15vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n/* other laptops */\n@media only screen and (min-width: 1440px) {\n.taller[data-v-85ef4954]{\n        height: 35%;\n}\n.quote[data-v-85ef4954]{\n        margin: 12vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n/* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
+exports.push([module.i, "\n.taller[data-v-6707e3d4]{\n    height: 30%;\n    padding: 0 3vw;\n    margin-bottom: 5vh;\n}\n.quote[data-v-6707e3d4]{\n    margin: 10vh auto;\n    color: red;\n    font-size: 30px;\n    font-style: italic;\n}\n.card-text[data-v-6707e3d4]{\n    color: black;\n}\n.sub-title[data-v-6707e3d4]{\n    font-weight: bold;\n    color: red;\n    font-style: italic;\n}\n\n /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.taller[data-v-6707e3d4]{\n        height: 50%;\n}\n.quote[data-v-6707e3d4]{\n        margin: 10vh auto;\n        font-size: 14px;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n.taller[data-v-6707e3d4]{\n        height: 35%;\n}\n.quote[data-v-6707e3d4]{\n        margin: 20vh auto;\n        font-size: 20px;\n}\n}\n\n\n/*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.taller[data-v-6707e3d4]{\n        height: 25%;\n}\n.quote[data-v-6707e3d4]{\n        margin: 5vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n.taller[data-v-6707e3d4]{\n        height: 20%;\n}\n.quote[data-v-6707e3d4]{\n        margin: 15vh auto;\n        font-size: 24px;\n}\n}\n\n/* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.taller[data-v-6707e3d4]{\n        height: 30%;\n}\n.quote[data-v-6707e3d4]{\n        margin: 15vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n/* other laptops */\n@media only screen and (min-width: 1440px) {\n.taller[data-v-6707e3d4]{\n        height: 35%;\n}\n.quote[data-v-6707e3d4]{\n        margin: 12vh auto;\n        font-size: 24px;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n/* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
 
 // exports
 
@@ -43904,7 +43904,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-85ef4954", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-6707e3d4", module.exports)
   }
 }
 
@@ -43927,7 +43927,7 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-0b29d7d5"
+var __vue_scopeId__ = "data-v-00062a95"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -43938,7 +43938,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\Services.vue"
+Component.options.__file = "resources/assets/js/components/Services.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -43947,9 +43947,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0b29d7d5", Component.options)
+    hotAPI.createRecord("data-v-00062a95", Component.options)
   } else {
-    hotAPI.reload("data-v-0b29d7d5", Component.options)
+    hotAPI.reload("data-v-00062a95", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -43970,13 +43970,13 @@ var content = __webpack_require__(52);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("7dd922eb", content, false, {});
+var update = __webpack_require__(4)("a09338d2", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-0b29d7d5\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Services.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-0b29d7d5\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Services.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-00062a95\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Services.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-00062a95\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Services.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -43994,7 +43994,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\nh5[data-v-0b29d7d5]{\n\t\tfont-weight: bold;\n\t\tcolor: #00837d;\n}\n.card[data-v-0b29d7d5]{\n\t\theight: 65vh;\n}\n.card-text[data-v-0b29d7d5]{\n        color: black;\n        font-weight: bold;\n}\n\n    /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n}\n\n\n    /*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n}\n\n    /* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n.card[data-v-0b29d7d5]{\n            height: 70vh;\n}\n}\n\n    /* other laptops */\n@media only screen and (min-width: 1440px) {\n.card[data-v-0b29d7d5]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n.card[data-v-0b29d7d5]{\n            height: 60vh;\n}\n}\n\n    /* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n.card[data-v-0b29d7d5]{\n            height: 65vh;\n}\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
+exports.push([module.i, "\nh5[data-v-00062a95]{\n\t\tfont-weight: bold;\n\t\tcolor: #00837d;\n}\n.card[data-v-00062a95]{\n\t\theight: 65vh;\n}\n.card-text[data-v-00062a95]{\n        color: black;\n        font-weight: bold;\n}\n\n    /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\n.card[data-v-00062a95]{\n            height: auto;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\n}\n\n\n    /*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\n.card[data-v-00062a95]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\n}\n\n    /* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\n.card[data-v-00062a95]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n.card[data-v-00062a95]{\n            height: 70vh;\n}\n}\n\n    /* other laptops */\n@media only screen and (min-width: 1440px) {\n.card[data-v-00062a95]{\n            height: auto;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n.card[data-v-00062a95]{\n            height: 60vh;\n}\n}\n\n    /* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\n.card[data-v-00062a95]{\n            height: 65vh;\n}\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
 
 // exports
 
@@ -44303,7 +44303,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-0b29d7d5", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-00062a95", module.exports)
   }
 }
 
@@ -44326,7 +44326,7 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-1951a032"
+var __vue_scopeId__ = "data-v-cbf595b2"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -44337,7 +44337,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\SlideShow.vue"
+Component.options.__file = "resources/assets/js/components/SlideShow.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -44346,9 +44346,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-1951a032", Component.options)
+    hotAPI.createRecord("data-v-cbf595b2", Component.options)
   } else {
-    hotAPI.reload("data-v-1951a032", Component.options)
+    hotAPI.reload("data-v-cbf595b2", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -44369,13 +44369,13 @@ var content = __webpack_require__(57);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("887e17b8", content, false, {});
+var update = __webpack_require__(4)("3d188c7c", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1951a032\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./SlideShow.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1951a032\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./SlideShow.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-cbf595b2\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./SlideShow.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-cbf595b2\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./SlideShow.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -44393,7 +44393,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n#background-image[data-v-1951a032]{\n\t\t/* BOX MODEL */\n\t\tz-index: 0;\n\n\t\t/* ENHANCEMENT */\n\t\tbackground-position: center center;\n\t\tbackground-size: cover;\n\t\tbackground-repeat: no-repeat;\n}\nimg[data-v-1951a032]{\n\t\twidth: 100%;\n\t\theight: 30vh;\n}\n\n\t /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\nimg[data-v-1951a032]{\n        \theight: 30vh;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\nimg[data-v-1951a032]{\n            height: 99vh;\n}\n}\n\n\n    /*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\nimg[data-v-1951a032]{\n        \theight: 40vh;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\nimg[data-v-1951a032]{\n        \theight: 70vh;\n}\n}\n\n    /* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\nimg[data-v-1951a032]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n    /* other laptops */\n@media only screen and (min-width: 1440px) {\nimg[data-v-1951a032]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n    /* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\nimg[data-v-1951a032]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
+exports.push([module.i, "\n#background-image[data-v-cbf595b2]{\n\t\t/* BOX MODEL */\n\t\tz-index: 0;\n\n\t\t/* ENHANCEMENT */\n\t\tbackground-position: center center;\n\t\tbackground-size: cover;\n\t\tbackground-repeat: no-repeat;\n}\nimg[data-v-cbf595b2]{\n\t\twidth: 100%;\n\t\theight: 30vh;\n}\n\n\t /*********** iPhones and SmartPhones ******************/\n@media only screen and (max-width: 740px) {\nimg[data-v-cbf595b2]{\n        \theight: 30vh;\n}\n}\n@media only screen and (max-width: 740px) and (orientation: landscape) {\nimg[data-v-cbf595b2]{\n            height: 99vh;\n}\n}\n\n\n    /*********** Device = Tablets, Ipads (portrait)*/\n@media only screen and (min-width: 768px) {\nimg[data-v-cbf595b2]{\n        \theight: 40vh;\n}\n}\n@media only screen and (min-width: 768px) and (orientation: landscape) {\nimg[data-v-cbf595b2]{\n        \theight: 70vh;\n}\n}\n\n    /* Laptops (1280) */\n@media only screen and (min-width: 1280px) {\nimg[data-v-cbf595b2]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 1280px)  and (orientation: landscape){\n}\n\n    /* other laptops */\n@media only screen and (min-width: 1440px) {\nimg[data-v-cbf595b2]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 1440px)  and (orientation: landscape){\n}\n\n    /* desktops- wide screen */\n@media only screen and (min-width: 1900px) {\nimg[data-v-cbf595b2]{\n        \theight: 35vh;\n}\n}\n@media only screen and (min-width: 1900px)  and (orientation: landscape){\n}\n", ""]);
 
 // exports
 
@@ -44457,7 +44457,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-1951a032", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-cbf595b2", module.exports)
   }
 }
 
@@ -44480,7 +44480,7 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-1ac7daf9"
+var __vue_scopeId__ = "data-v-43b63039"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -44491,7 +44491,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\Contact.vue"
+Component.options.__file = "resources/assets/js/components/Contact.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -44500,9 +44500,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-1ac7daf9", Component.options)
+    hotAPI.createRecord("data-v-43b63039", Component.options)
   } else {
-    hotAPI.reload("data-v-1ac7daf9", Component.options)
+    hotAPI.reload("data-v-43b63039", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -44523,13 +44523,13 @@ var content = __webpack_require__(62);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("75a3c162", content, false, {});
+var update = __webpack_require__(4)("566fd200", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1ac7daf9\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Contact.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-1ac7daf9\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Contact.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43b63039\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Contact.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-43b63039\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Contact.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -44547,7 +44547,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n.card[data-v-1ac7daf9]{\n\t\tmin-height: 25vh;\n}\n.card-text[data-v-1ac7daf9]{\n        color: black;\n        font-weight: bold;\n}\n", ""]);
+exports.push([module.i, "\n.card[data-v-43b63039]{\n\t\tmin-height: 25vh;\n}\n.card-text[data-v-43b63039]{\n        color: black;\n        font-weight: bold;\n}\n", ""]);
 
 // exports
 
@@ -44821,7 +44821,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-1ac7daf9", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-43b63039", module.exports)
   }
 }
 
@@ -44851,7 +44851,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\Testimonials.vue"
+Component.options.__file = "resources/assets/js/components/Testimonials.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -44860,9 +44860,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-188394ab", Component.options)
+    hotAPI.createRecord("data-v-650ef12a", Component.options)
   } else {
-    hotAPI.reload("data-v-188394ab", Component.options)
+    hotAPI.reload("data-v-650ef12a", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -44955,7 +44955,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-188394ab", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-650ef12a", module.exports)
   }
 }
 

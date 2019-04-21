@@ -112,6 +112,9 @@
 	.card{
 		height: 65vh;
 	}
+    .card-body{
+        border: 1px solid red;
+    }
     .card-text{
         color: black;
         font-weight: bold;
@@ -146,8 +149,9 @@
     }
     @media only screen and (min-width: 1280px)  and (orientation: landscape){
         .card{
-            height: 70vh;
+            height: auto;
         }
+        
     }
 
     /* other laptops */
